@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Bites</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center/cover;
+      color: white;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      background: rgba(0,0,0,0.5);
+      padding: 10px;
+    }
+
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      width: 200px;
+    }
+
+    .contact {
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    button {
+      background: #ff6600;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Fresh Bites</h2>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Delicious Food Delivered Fast</h1>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="card">
+        <h3>Burger</h3>
+        <p>$5</p>
+      </div>
+
+      <div class="card">
+        <h3>Pizza</h3>
+        <p>$8</p>
+      </div>
+
+      <div class="card">
+        <h3>Pasta</h3>
+        <p>$7</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>WhatsApp: +974 0000 0000</p>
+    <button onclick="orderNow()">Order Now</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Fresh Bites</p>
+  </footer>
+
+  <script>
+    function orderNow() {
+      alert("Redirecting to WhatsApp...");
+      window.location.href = "https://wa.me/97400000000";
+    }
+  </script>
+
+</body>
+</html>
