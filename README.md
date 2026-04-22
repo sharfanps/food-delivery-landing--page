@@ -3,4 +3,4 @@
 A Simple responsive website for small businesses
 
 ## Live Demo 
-freshbites-sharfan.netlify.app
+[View Live Site](https://freshbites-sharfan.netlify.app)
